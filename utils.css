@@ -35,7 +35,6 @@
 }
 
 .divider {
-	width: 90%;
 	border-bottom: var(--default-border);
 	padding: 0;
 	margin: 1rem 0rem 2rem 0rem;
@@ -48,4 +47,12 @@
 
 .fill-height {
 	height: 100%;
+}
+
+.scroll-x {
+	overflow-x: scroll;
+}
+
+.scroll-y {
+	overflow-y: scroll;
 }

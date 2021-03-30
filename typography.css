@@ -1,25 +1,25 @@
 /* Typography */
 
 .huge-heading {
-	font-size: 3rem;
+	font-size: 2rem;
 	margin: 2rem 0rem;
 	padding-left: var(--default-padding);
 }
 
 .main-heading {
-	font-size: 2.5rem;
+	font-size: 1.75rem;
 	margin: 1.5rem 0rem;
 	padding-left: var(--default-padding);
 }
 
 .sub-heading {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin: 1rem 0rem;
 	padding-left: var(--default-padding);
 }
 
 .sub-heading-2 {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	margin: 1rem 0rem;
 	padding-left: var(--default-padding);
 }
