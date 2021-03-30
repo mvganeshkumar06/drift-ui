@@ -1,0 +1,51 @@
+/* Util classes */
+
+.bg-overlay {
+	background-color: var(--bg-color-overlay);
+	border-right: var(--default-border);
+}
+
+.align-items-row {
+	display: flex;
+}
+
+.align-items-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.center {
+	justify-content: center;
+	align-items: center;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+
+.inline-code {
+	background-color: var(--inline-code-bg-color);
+	padding: 0.25rem var(--default-padding);
+	margin: 0.25rem;
+	border-radius: var(--default-border-radius);
+}
+
+.divider {
+	width: 90%;
+	border-bottom: var(--default-border);
+	padding: 0;
+	margin: 1rem 0rem 2rem 0rem;
+	box-shadow: 1px 1px var(--gray-1);
+}
+
+.fill-width {
+	width: 100%;
+}
+
+.fill-height {
+	height: 100%;
+}
