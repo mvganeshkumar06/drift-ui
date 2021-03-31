@@ -1,0 +1,139 @@
+:root {
+	/* Defalt border */
+	--default-border: 1px solid var(--gray-3);
+
+	/* Default border radius */
+	--default-border-radius: 0.25rem;
+
+	/* Default box shadow */
+	--default-box-shadow: 1px 1px 1px var(--gray-2);
+
+	/* Default padding and margin */
+	--default-padding: 0.5rem;
+	--default-margin: 0.5rem;
+
+	/* 
+
+	Default z-index values 
+
+	1. Badge icon, Floating action btn
+	2. Bg overlay, Navigation
+	3. Modal backdrop
+	4. Modal
+
+	*/
+
+	--level-1: 10;
+	--level-2: 20;
+	--level-3: 30;
+	--level-4: 40;
+
+	/* 
+
+    Color palette 
+
+    1. Tint - Component subtle interactions
+    2. Base - Component base color 
+    3. Shade - Component interactions
+    4. Dark shade - Component text
+
+    */
+
+	--gray-1: #edf2f7;
+	--gray-2: #cbd5e0;
+	--gray-3: #718096;
+	--gray-4: #2d3748;
+
+	--red-1: #fed7d7;
+	--red-2: #feb2b2;
+	--red-3: #fc8181;
+	--red-4: #c53030;
+
+	--orange-1: #feebc8;
+	--orange-2: #fbd38d;
+	--orange-3: #f6ad55;
+	--orange-4: #c05621;
+
+	--green-1: #c6f6d5;
+	--green-2: #9ae6b4;
+	--green-3: #68d391;
+	--green-4: #2f855a;
+
+	--blue-1: #bee3f8;
+	--blue-2: #90cdf4;
+	--blue-3: #63b3ed;
+	--blue-4: #2b6cb0;
+
+	--purple-1: #e9d8fd;
+	--purple-2: #d6bcfa;
+	--purple-3: #b794f4;
+	--purple-4: #6b46c1;
+
+	--pink-1: #fed7e2;
+	--pink-2: #fbb6ce;
+	--pink-3: #f687b3;
+	--pink-4: #b83280;
+}
+
+* {
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	line-height: 1.5rem;
+}
+
+a {
+	text-decoration: none;
+	color: var(--text-color);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+/* Remove default focus */
+:focus {
+	outline: auto;
+}
+
+/* Light and dark mode*/
+.light {
+	--text-color: black;
+	--text-gray: var(--gray-3);
+	--bg-color: white;
+	--bg-color-overlay: var(--gray-1);
+	--btn-color: var(--gray-1);
+	--btn-color-on-hover: var(--gray-2);
+	--label-color: var(--gray-1);
+	--input-color: white;
+	--list-link-color-on-hover: var(--gray-2);
+	--inline-code-bg-color: var(--gray-2);
+	--modal-bg-color: white;
+	--modal-backdrop-color: #2d3748d8;
+
+	background-color: var(--bg-color);
+	color: var(--text-color);
+}
+
+.dark {
+	--text-color: white;
+	--text-gray: var(--gray-2);
+	--bg-color: var(--gray-4);
+	--bg-color-overlay: var(--gray-3);
+	--btn-color: var(--gray-2);
+	--btn-color-on-hover: var(--gray-3);
+	--label-color: var(--gray-3);
+	--input-color: var(--gray-3);
+	--list-link-color-on-hover: var(--gray-3);
+	--inline-code-bg-color: var(--gray-3);
+	--modal-bg-color: var(--gray-1);
+	--modal-backdrop-color: #2d3748cb;
+
+	background-color: var(--bg-color);
+	color: var(--text-color);
+}
