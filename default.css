@@ -80,6 +80,25 @@
 	padding: 0;
 	margin: 0;
 	line-height: 1.5rem;
+
+	/* Scroll bar styles works on Firefox */
+	scrollbar-width: thin;
+	scrollbar-color: var(--scroll-bar-thumb-color) var(--bg-color);
+}
+
+/* Scroll bar styles works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+	background: var(--bg-color);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--scroll-bar-thumb-color);
+	border-radius: 0.5rem;
+	border: 1px solid var(--bg-color);
 }
 
 a {
@@ -96,7 +115,7 @@ ol {
 	list-style-type: none;
 }
 
-/* Remove default focus */
+/* Default focus */
 :focus {
 	outline: auto;
 }
@@ -109,12 +128,11 @@ ol {
 	--bg-color-overlay: var(--gray-1);
 	--btn-color: var(--gray-1);
 	--btn-color-on-hover: var(--gray-2);
-	--label-color: var(--gray-1);
-	--input-color: white;
 	--list-link-color-on-hover: var(--gray-2);
 	--inline-code-bg-color: var(--gray-2);
 	--modal-bg-color: white;
 	--modal-backdrop-color: #2d3748d8;
+	--scroll-bar-thumb-color: #a5b1c4;
 
 	background-color: var(--bg-color);
 	color: var(--text-color);
@@ -133,6 +151,7 @@ ol {
 	--inline-code-bg-color: var(--gray-3);
 	--modal-bg-color: var(--gray-1);
 	--modal-backdrop-color: #2d3748cb;
+	--scroll-bar-thumb-color: var(--gray-3);
 
 	background-color: var(--bg-color);
 	color: var(--text-color);

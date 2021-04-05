@@ -126,7 +126,6 @@
 	margin: var(--default-margin);
 	border: var(--default-border);
 	border-radius: var(--default-border-radius);
-	box-shadow: var(--default-box-shadow);
 }
 
 .img {
