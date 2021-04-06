@@ -88,7 +88,7 @@
 
 /* Scroll bar styles works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-	width: 10px;
+	width: 6px;
 }
 
 *::-webkit-scrollbar-track {
@@ -97,8 +97,12 @@
 
 *::-webkit-scrollbar-thumb {
 	background-color: var(--scroll-bar-thumb-color);
-	border-radius: 0.5rem;
-	border: 1px solid var(--bg-color);
+	border-radius: 2px;
+}
+
+/* Default focus */
+:focus {
+	outline: auto;
 }
 
 a {
@@ -107,17 +111,12 @@ a {
 }
 
 a:hover {
-	text-decoration: underline;
+	cursor: pointer;
 }
 
 ul,
 ol {
 	list-style-type: none;
-}
-
-/* Default focus */
-:focus {
-	outline: auto;
 }
 
 /* Light and dark mode*/

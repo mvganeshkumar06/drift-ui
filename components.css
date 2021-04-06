@@ -284,3 +284,51 @@
 	left: 0;
 	background-color: var(--bg-color-overlay);
 }
+
+.toast-backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--modal-backdrop-color);
+	z-index: var(--level-3);
+	display: flex;
+}
+
+.toast {
+	width: 20rem;
+	height: 5rem;
+	padding: var(--default-padding);
+	background-color: var(--modal-bg-color);
+	color: black;
+	border-radius: var(--default-border-radius);
+	border: 1px solid black;
+	z-index: var(--level-4);
+}
+
+.toast-bottom {
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.toast-bottom .toast {
+	margin: 0rem 0rem 1rem 0rem;
+}
+
+.toast-left {
+	align-items: flex-end;
+}
+
+.toast-left .toast {
+	margin: 0rem 0rem 1rem 1rem;
+}
+
+.toast-right {
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.toast-right .toast {
+	margin: 0rem 1rem 1rem 0rem;
+}

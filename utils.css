@@ -52,3 +52,8 @@
 .scroll-auto {
 	overflow: auto auto;
 }
+
+.link-underline:hover {
+	border-bottom: 1px solid var(--text-color);
+	padding-bottom: 0.5rem;
+}
