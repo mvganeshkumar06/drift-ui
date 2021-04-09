@@ -291,7 +291,6 @@
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	background-color: var(--modal-backdrop-color);
 	z-index: var(--level-3);
 	display: flex;
 }
@@ -305,6 +304,7 @@
 	border-radius: var(--default-border-radius);
 	border: 1px solid black;
 	z-index: var(--level-4);
+	box-shadow: var(--default-box-shadow);
 }
 
 .toast-bottom {
@@ -331,4 +331,17 @@
 
 .toast-right .toast {
 	margin: 0rem 1rem 1rem 0rem;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	color: var(--text-color);
+	border-radius: var(--default-border-radius);
+	box-shadow: var(--default-box-shadow);
+	background-color: var(--bg-color);
 }

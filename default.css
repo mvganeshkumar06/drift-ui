@@ -6,7 +6,7 @@
 	--default-border-radius: 0.25rem;
 
 	/* Default box shadow */
-	--default-box-shadow: 1px 1px 1px var(--gray-2);
+	--default-box-shadow: 1px 1px var(--gray-3);
 
 	/* Default padding and margin */
 	--default-padding: 0.5rem;
@@ -131,7 +131,7 @@ ol {
 	--inline-code-bg-color: var(--gray-2);
 	--modal-bg-color: white;
 	--modal-backdrop-color: #2d3748d8;
-	--scroll-bar-thumb-color: #a5b1c4;
+	--scroll-bar-thumb-color: var(--gray-2);
 
 	background-color: var(--bg-color);
 	color: var(--text-color);
@@ -144,13 +144,11 @@ ol {
 	--bg-color-overlay: var(--gray-3);
 	--btn-color: var(--gray-2);
 	--btn-color-on-hover: var(--gray-3);
-	--label-color: var(--gray-3);
-	--input-color: var(--gray-3);
 	--list-link-color-on-hover: var(--gray-3);
 	--inline-code-bg-color: var(--gray-3);
 	--modal-bg-color: var(--gray-1);
 	--modal-backdrop-color: #2d3748cb;
-	--scroll-bar-thumb-color: var(--gray-3);
+	--scroll-bar-thumb-color: var(--gray-2);
 
 	background-color: var(--bg-color);
 	color: var(--text-color);
